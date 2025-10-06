@@ -1,0 +1,28 @@
+{
+  "amount": 25000000,
+  "currency": "AED",
+  "type": "property_purchase",
+  "propertyId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "buyerId": "buyer-user-uuid",
+  "sellerId": "seller-user-uuid",
+  "paymentMethod": "bank_transfer",
+  "installmentPlan": {
+    "enabled": true,
+    "downPaymentPercent": 20,
+    "numberOfInstallments": 12,
+    "intervalMonths": 1
+  },
+  "escrowRequired": true,
+  "escrowDetails": {
+    "releaseConditions": [
+      "title_transfer_complete",
+      "keys_handed_over",
+      "noc_received"
+    ],
+    "escrowAgentId": "escrow-agent-uuid"
+  },
+  "metadata": {
+    "leadId": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+    "transactionReference": "TXN-2025-001234"
+  }
+}

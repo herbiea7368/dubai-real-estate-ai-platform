@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run migration:run:*)",
+      "Bash(npm run seed:run:*)",
+      "Bash(docker exec:*)",
+      "Bash(npm run migration:show:*)",
+      "Bash(npm run start:dev:*)",
+      "Bash(curl -X POST http://localhost:3000/auth/register -H \"Content-Type: application/json\" -d \"{\"\"email\"\":\"\"newuser@test.com\"\",\"\"phone\"\":\"\"+971505555555\"\",\"\"password\"\":\"\"SecurePass123!\"\",\"\"name\"\":\"\"New Test User\"\",\"\"locale\"\":\"\"en\"\"}\" -s)",
+      "Bash(curl -X POST http://localhost:3000/auth/login -H \"Content-Type: application/json\" -d \"{\"\"emailOrPhone\"\":\"\"buyer@test.com\"\",\"\"password\"\":\"\"TestPass123!\"\"}\" -s)",
+      "Bash(curl -X POST http://localhost:3000/auth/login -H \"Content-Type: application/json\" -d \"{\"\"emailOrPhone\"\":\"\"+971501234570\"\",\"\"password\"\":\"\"TestPass123!\"\"}\" -s)",
+      "Bash(curl:*)",
+      "Bash(npm run migration:generate:*)",
+      "Bash(mkdir:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(timeout:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(python:*)",
+      "Bash(del:*)",
+      "Bash(npm run:*)",
+      "Bash(if exist:*)",
+      "Bash(powershell:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

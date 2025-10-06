@@ -1,0 +1,43 @@
+{
+  "propertyId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "permitNumber": "BRN123456",
+  "titleEn": "Luxurious 5BR Villa in Palm Jumeirah with Private Beach Access",
+  "titleAr": "فيلا فاخرة 5 غرف نوم في نخلة جميرا مع شاطئ خاص",
+  "descriptionEn": "Experience unparalleled luxury in this stunning 5-bedroom villa located in the prestigious Palm Jumeirah. This magnificent property offers breathtaking sea views, direct beach access, and world-class amenities. The villa features spacious living areas, a private pool, modern kitchen, and elegant finishes throughout. Perfect for families seeking the ultimate Dubai lifestyle.",
+  "descriptionAr": "استمتع بالفخامة التي لا مثيل لها في هذه الفيلا المذهلة المكونة من 5 غرف نوم والواقعة في نخلة جميرا المرموقة. توفر هذه العقارات الرائعة إطلالات خلابة على البحر، ووصول مباشر إلى الشاطئ، ووسائل راحة عالمية المستوى. تتميز الفيلا بمساحات معيشة واسعة، ومسبح خاص، ومطبخ حديث، ولمسات نهائية أنيقة في جميع أنحائها. مثالية للعائلات التي تبحث عن أسلوب حياة دبي النهائي.",
+  "status": "active",
+  "badges": [
+    "verified",
+    "premium",
+    "hot_deal"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://example.com/images/villa-exterior.jpg",
+      "order": 1,
+      "caption": "Exterior view"
+    },
+    {
+      "type": "image",
+      "url": "https://example.com/images/villa-living-room.jpg",
+      "order": 2,
+      "caption": "Spacious living room"
+    },
+    {
+      "type": "video",
+      "url": "https://example.com/videos/villa-tour.mp4",
+      "order": 3,
+      "caption": "Virtual tour"
+    },
+    {
+      "type": "virtual_tour",
+      "url": "https://example.com/tours/villa-360",
+      "order": 4,
+      "caption": "360° virtual tour"
+    }
+  ],
+  "publishedAt": "2025-10-06T10:00:00.000Z",
+  "expiresAt": "2025-11-06T10:00:00.000Z",
+  "autoRenewal": true
+}

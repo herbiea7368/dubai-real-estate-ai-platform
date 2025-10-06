@@ -12,6 +12,7 @@ export enum UserRole {
   MARKETING = 'marketing',
   COMPLIANCE = 'compliance',
   BUYER = 'buyer',
+  ADMIN = 'admin',
 }
 
 export enum UserLocale {
@@ -43,14 +44,13 @@ export class User {
   locale!: UserLocale;
 
   @Column({
-    type: 'enum',
-    enum: UserRole,
+    type: 'text',
     array: true,
-    default: [UserRole.BUYER],
+    default: '{buyer}',
   })
   roles!: UserRole[];
 
-  @Column({ type: 'varchar', length: 255, nullable: true })
+  @Column({ type: 'varchar', length: 255, nullable: true, select: false })
   passwordHash!: string | null;
 
   @Column({ type: 'boolean', default: true })

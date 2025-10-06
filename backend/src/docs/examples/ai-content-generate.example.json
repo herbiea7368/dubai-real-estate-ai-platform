@@ -1,0 +1,17 @@
+{
+  "prompt": "Create a compelling property description for a 5-bedroom luxury villa in Palm Jumeirah with sea view, private pool, and beach access",
+  "language": "en",
+  "tone": "professional",
+  "contentType": "property_description",
+  "maxTokens": 500,
+  "includeArabic": true,
+  "propertyContext": {
+    "type": "villa",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqft": 8500,
+    "price": 25000000,
+    "community": "Palm Jumeirah",
+    "amenities": ["pool", "beach_access", "gym", "parking"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Fatima Al-Mansouri",
+  "email": "fatima.almansouri@example.com",
+  "phone": "+971501234567",
+  "source": "website",
+  "propertyId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "listingId": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+  "status": "new",
+  "budgetMin": 20000000,
+  "budgetMax": 30000000,
+  "preferences": {
+    "propertyType": ["villa", "penthouse"],
+    "bedrooms": [4, 5, 6],
+    "communities": ["Palm Jumeirah", "Dubai Marina", "Emirates Hills"],
+    "purpose": "purchase",
+    "mustHaveAmenities": ["pool", "beach_access", "parking"],
+    "occupancyTimeline": "within_3_months"
+  },
+  "notes": "Client is looking for a luxury villa with sea view, preferably in Palm Jumeirah. Ready to move within 3 months. Pre-qualified for financing.",
+  "consentGiven": true,
+  "consentTimestamp": "2025-10-06T14:30:00.000Z",
+  "utmSource": "google",
+  "utmMedium": "cpc",
+  "utmCampaign": "luxury_villas_2025"
+}
